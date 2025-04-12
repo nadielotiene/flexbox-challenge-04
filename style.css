@@ -5,7 +5,6 @@
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
-    width: 100%;
 }
 
 .slogan {
@@ -24,9 +23,7 @@ h1, h2 {
     font-weight: 900;
 }
 
-.info-title-1,
-.info-title-2,
-.info-title-3 {
+h2 {
     font-size: 36px;
     font-weight: 900;
 }
@@ -62,10 +59,8 @@ h1, h2 {
 }
 
 .row {
-    padding: 80px 0;
+    padding: 5rem 0;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
 }
 
 .col {
@@ -73,16 +68,8 @@ h1, h2 {
 }
 
 .col + .col {
-    margin-left: 30px;
-    /* max-width: 50%; */
+    margin-left: 3rem;
 } 
-
-.second-section,
-.third-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 .hero {
     background-color: #F3EED9;
@@ -96,6 +83,11 @@ h1, h2 {
 
 .info-title-1 {
     text-align: center;
+}
+
+.info-title-2,
+.info-title-3 {
+    margin: 0;
 }
 
 .text-cols {
@@ -112,5 +104,4 @@ h1, h2 {
 
 .img {
     max-width: 100%;
-    align-self: flex-start;
 }
