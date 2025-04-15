@@ -19,8 +19,9 @@ h1, h2 {
 }
 
 .title {
-    font-size: 60px;
+    font-size: 3rem;
     font-weight: 900;
+    line-height: 1.2em;
 }
 
 h2 {
@@ -54,8 +55,8 @@ h2 {
 
 .container {
     width: 80%;
-    max-width: 1128px;
     margin: 0 auto;
+    max-width: 1128px;
 }
 
 .row {
@@ -104,4 +105,14 @@ h2 {
 
 .img {
     max-width: 100%;
+}
+
+@media (max-width: 620px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .col + .col {
+        margin-left: 0;
+    } 
 }
